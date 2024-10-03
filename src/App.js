@@ -1,9 +1,11 @@
-import './App.css';
+import Navbar from "./components/Navbar/Navbar";
+import Intro from './components/Intro/Intro';
 
 function App() {
   return (
-    <div className='text-3xl underline font-bold bg-red-600 '>
-     <h1>hello</h1>
+    <div>
+      <Navbar />
+      <Intro />
     </div>
   );
 }

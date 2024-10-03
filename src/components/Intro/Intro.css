@@ -1,0 +1,49 @@
+.container{
+  height: calc(100vh - 4rem);
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  overflow: hidden;
+  padding: 0 10px;
+}
+
+.info-section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 80%;
+  width: 45%;
+  gap: 5px;
+}
+.info-section span {
+  font-size: 1.2vw;
+  color: white;
+}
+
+#info-name{
+  color: white;
+  font-weight: 600;
+  font-size: 3.5vw;
+}
+#info-name span{
+  color: White;
+  font-weight: 600;
+  font-size: 3.5vw;
+}
+
+.info-section p{
+  font-size: 1vw;
+  color: rgb(197, 196, 196);
+}
+
+.profile-section{  
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 45%;
+  object-fit: cover;
+}
