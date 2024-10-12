@@ -1,0 +1,95 @@
+.resume-section{
+  border: 1px solid rgb(84, 84, 84);
+  border-radius: 10px;
+  width: 89%;
+  margin: 50px auto;
+  padding: 30px;
+}
+.section-heading{
+  text-align: left;
+  margin-bottom: 50px;
+  font-size: 3vw;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(84, 84, 84);
+}
+.container{
+  padding: 0 5px;
+}
+.field{
+  margin-bottom: 20px;
+}
+.field p{
+  font-size: 2.5vw;
+  color: #007FF1;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.options{
+  padding: 15px 0;
+}
+.options-role{
+  font-size: 1.5vw;
+  color: white;
+}
+.options-level{
+  font-size: 1.2vw;
+  color: rgb(174, 173, 173);
+}
+.options-year{
+  font-size: 1.2vw;
+  color: rgb(174, 173, 173);
+}
+.options-name{
+  font-size: 1.6vw;
+  font-weight: 500;
+  color: white;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .field p{
+    font-size: 3.3vw;
+  }
+  .options{
+    padding: 15px 0;
+  }
+  .options-role{
+    font-size: 1.8vw;
+  }
+  .options-level{
+    font-size: 1.9vw;
+  }
+  .options-year{
+    font-size: 1.8vw;
+  }
+  .options-name{
+    font-size: 2vw;
+    font-weight: 500;
+  }  
+}
+
+@media screen and (max-width: 500px) {
+  .field p{
+    font-size: 3.9vw;
+  }
+  .options{
+    padding: 15px 0;
+  }
+  .options-role{
+    font-size: 2.8vw;
+  }
+  .options-level{
+    font-size: 2.4vw;
+  }
+  .options-year{
+    font-size: 2.8vw;
+  }
+  .options-name{
+    font-size: 3.1vw;
+    font-weight: 500;
+  }  
+}

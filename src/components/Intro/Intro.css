@@ -1,49 +1,119 @@
-.container{
-  height: calc(100vh - 4rem);
-  width: auto;
+.profile-section{
+  height: 100vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  overflow: hidden;
-  padding: 0 10px;
+  margin: 0 auto;
+  padding: 5px;
 }
-
-.info-section{
+.profile-image{
+  width: 45%;
+  height: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.profile-image img{
+  width: 70%;
+  max-width: 600px;
+}
+
+.profile-text{
+  display: flex;
   flex-direction: column;
-  height: 80%;
-  width: 45%;
-  gap: 5px;
-}
-.info-section span {
-  font-size: 1.2vw;
-  color: white;
-}
-
-#info-name{
-  color: white;
-  font-weight: 600;
-  font-size: 3.5vw;
-}
-#info-name span{
-  color: White;
-  font-weight: 600;
-  font-size: 3.5vw;
-}
-
-.info-section p{
-  font-size: 1vw;
-  color: rgb(197, 196, 196);
-}
-
-.profile-section{  
-  padding: 10px;
-  display: flex;
   justify-content: center;
-  align-items: center;
-  height: 80%;
+  align-items: flex-start;
+  height: auto;
   width: 45%;
-  object-fit: cover;
+  gap: 10px;
+}
+.profile-text span{
+  font-size: 1.7vw;
+  color: lightgrey;
+
+} 
+.profile-text h1{
+  font-size: 3.5vw;
+  font-weight: 700;
+  color: #007FF1;
+}
+.profile-text p{
+  font-size: 1.2vw;
+  color: lightgrey;
+}
+.social-icons{
+  margin-top: 10px;
+  display: flex;
+  gap: 25px;
+}
+.logo{
+  text-decoration: none;
+  color: rgb(192, 192, 192);
+  font-size: 2.4vw;
+}
+.logo:hover{
+  color: white;
+}
+
+@media (max-width:800px) {
+  .profile-section{
+    height: 100vh;
+    flex-direction: column;
+    flex-flow: column-reverse;
+  }
+  .profile-image{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  .profile-image img{
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  .profile-text{
+    width: 80%;
+  }
+  .profile-text span{
+    font-size: 2.3vw;
+  } 
+  .profile-text h1{
+    font-size: 4.5vw;
+  }
+  .profile-text p{
+    flex-wrap: wrap;
+    font-size: 2.2vw;
+  }
+  .logo{
+    font-size: 2.8vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .profile-section{
+    height: 100vh;
+  }
+  .profile-image{
+    width: 75%;
+  }
+  .profile-text{
+    width: 80%;
+  }
+  .profile-text span{
+    font-size: 4vw;
+  } 
+  .profile-text h1{
+    font-size: 6vw;
+  }
+  .profile-text p{
+    flex-wrap: wrap;
+    font-size: 3.2vw;
+  }
+  .logo{
+    font-size: 4.5vw;
+  }
 }

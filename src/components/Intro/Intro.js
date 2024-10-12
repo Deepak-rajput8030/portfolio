@@ -1,21 +1,44 @@
 import React from 'react'
 import './Intro.css'
-import bg from './../../assets/Profile_Img-removebg-preview.jpg';
+import bg from './../../assets/Profile_Img.jpg';
 
 // #FF6500
 
 function Intro() {
   return (
-    <section className='container'>
+    <section className='profile-section'>
+  
+      <div className='profile-text'>
+        <span>Hello,</span>
+        <h1>I AM Deepak Rajput</h1> 
+        <p>I'm creative Web Developer based in Chh. Sambhaji nagar, 
+            and I'm very passionate and dedicated to my work.
+        </p>
 
-      <div className='info-section'>
-        <span>HI THERE,</span>
-        {/* <h1>I Am Deepak Maher</h1> */}
-        <p id='info-name'>I Am <span> Devoloper</span></p>
-        <p>I'm creative Web Developer based in Chh. Sambhaji nagar, and I'm very passionate and dedicated to my work.</p>
-      </div>       
-      <img src={bg} className="profile-section" alt='Profile_Img'></img>
+        <div className="social-icons">
 
+              <a className='logo' href='https://www.linkedin.com/in/8030deepakrajput'>
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+
+              <a className='logo' href='https://github.com/Deepak-rajput8030'>
+                <i className="fa-brands fa-github"></i>
+              </a>
+
+              <a className='logo' href='https://x.com/D_Rajput_8030'>
+                <i className="fa-brands fa-twitter"></i>
+              </a>
+              
+              <a className='logo' href='https://www.instagram.com/deepak_rajput_8030/'>
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+
+          </div>
+          
+      </div>
+      <div className='profile-image'>
+        <img src={bg} alt='profile_img'></img>
+      </div>
     </section>
   )
 }
