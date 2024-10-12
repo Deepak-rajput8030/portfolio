@@ -6,6 +6,6 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #222222;
   font-family: "Montserrat", sans-serif;
+  /* overflow: hidden; */
 }
