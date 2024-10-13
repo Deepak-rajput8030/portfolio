@@ -4,7 +4,7 @@ import './Footer.css'
 function Footer() {
   return (
     <section className='footer-section'>
-      <h1>Footer</h1>
+      <h1>All rights Reserved | Deepak Rajput</h1>
     </section>
   )
 }

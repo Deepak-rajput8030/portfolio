@@ -98,22 +98,22 @@
     height: 100vh;
   }
   .profile-image{
-    width: 75%;
+    width: 80%;
   }
   .profile-text{
     width: 80%;
   }
   .profile-text span{
-    font-size: 4vw;
+    font-size: 4.2vw;
   } 
   .profile-text h1{
-    font-size: 6vw;
+    font-size: 6.6vw;
   }
   .profile-text p{
     flex-wrap: wrap;
-    font-size: 3.2vw;
+    font-size: 3.5vw;
   }
   .logo{
-    font-size: 4.5vw;
+    font-size: 6.5vw;
   }
 }

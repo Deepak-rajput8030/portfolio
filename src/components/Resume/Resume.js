@@ -4,10 +4,11 @@ import './Resume.css';
 function Resume() {
   return (
     <div className='resume-section'>
-      <h2 className='section-heading'>Resume</h2>
+    <h2 className='section-heading'>Resume</h2>
       
-      <div className="container">
-          {/* Experience field */}
+    <div className="container">
+
+      {/* Experience field */}
         <div className="field">
           <p>Experience</p>
 
@@ -61,6 +62,15 @@ function Resume() {
           </div>
         </div>
 
+        <div className='cv-field'>
+          <a 
+            href="/Deepak_Rajput_Resume.pdf" 
+            download="Deepak_Rajput_Resume.pdf">
+            <i className="fa-solid fa-download"></i>  
+              Download CV
+          </a> 
+        </div>
+        
       </div>
     </div>
   )

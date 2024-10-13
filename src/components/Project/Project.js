@@ -41,35 +41,35 @@ const Project = () => {
             name: `Amazon Website Clone`,
             img: amazonimg,
             detail: `Landing page Clone of Amazon E-commerce website.`,
-            link: `C:\Users\Deepak Maher\Desktop\Pro\Web\projects\Amazon_clone\Amazon_clone.html`,
+            link: `https://deepak-rajput8030.github.io/demo-react/`,
           },
           {
             id: 2,
             name: `Currency Converter`,
             img: currencyconverterimg,
             detail: `A Currency Converter Website for realtime Currency conversion.`,
-            link: `#`,
+            link: `https://deepak-rajput8030.github.io/demo-react/`,
           },
           {
             id: 3,
             name: `Rock Paper Scissor Game`,
             img: rockpaperimg,
             detail: `Rock Paper Scissor Game to play with friends and computer.`,
-            link: ``,
+            link: `https://deepak-rajput8030.github.io/demo-react/`,
           },
           {
             id: 4,
             name: `Calculator`,
             img: calculatorimg,
             detail: `A fully working Calculator for Mathmatical Calculations.`,
-            link: ``,
+            link: `https://deepak-rajput8030.github.io/demo-react/`,
           },
           {
             id: 5,
             name: `To Do List`,
             img: todolistimg,
             detail: `A To Do List Web App for keep track of Daily Tasks.`,
-            link: ``,
+            link: `https://deepak-rajput8030.github.io/demo-react/`,
           },
       ];
 
@@ -83,7 +83,7 @@ const Project = () => {
                         <img src={slide.img}/>
                         <p>
                           <span>{slide.name}</span>
-                          <a href={slide.link} className="fa-solid fa-up-right-from-square"> </a>
+                          <a href={slide.link} className="fa-solid fa-up-right-from-square">  </a>
                         </p> 
                         <small>{slide.detail}</small>
                     </div>

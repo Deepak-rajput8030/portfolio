@@ -1,8 +1,6 @@
 .contact-section{
-  /* height: calc(90vh - 4rem); */
   border-radius: 10px;
   width: 40%;
-  height: 75%;
   margin: 0 auto;
   margin-bottom: 50px;
   padding: 30px;
@@ -58,8 +56,6 @@
   padding-right: 10px;
 }
 .contact-form button{
-  visibility: visible;
-  display: block;
   padding: 10px 20px;
   color: white;
   font-weight: 600;
@@ -95,12 +91,12 @@
     font-size: 4.5vw;
   }
   .contact-form input{
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
   .contact-form textarea{
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
   .contact-form button{
-    font-size: 2.5vw;
+    font-size: 3.3vw;
   }
 }

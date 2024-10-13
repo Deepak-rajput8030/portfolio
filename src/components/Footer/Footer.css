@@ -1,6 +1,17 @@
 .footer-section{
   background-color: rgb(84, 84, 84);
-  height: 200px;
+  height: 100px;
   color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   font-size: 2vw;
+}
+
+@media screen and (max-width: 500px) {
+  .footer-section{
+    font-size: 3.5vw;
+  }
+  
 }
