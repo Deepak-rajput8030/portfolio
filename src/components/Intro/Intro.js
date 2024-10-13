@@ -11,8 +11,9 @@ function Intro() {
       <div className='profile-text'>
         <span>Hello,</span>
         <h1>I AM Deepak Rajput</h1> 
-        <p>I'm creative Web Developer based in Chh. Sambhaji nagar, 
-            and I'm very passionate and dedicated to my work.
+        <p>
+          I am a creative and passionate web developer. With a commitment to continuous learning, I strive to build 
+          engaging and responsive websites that offer seamless user experiences.
         </p>
 
         <div className="social-icons">

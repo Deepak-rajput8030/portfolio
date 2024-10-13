@@ -27,9 +27,7 @@ function Resume() {
             <h3 className="options-name">
                 {/* <li>React Js <span className='options-level'> 80%</span> </li>  */}
                 <li>React JS</li>
-                <li>Firebase</li>
-                <li>Redux</li>
-                <li>Tailwind CSS</li>
+                <li>Responsive Website</li>
                 <li>Javascript</li>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -64,9 +62,9 @@ function Resume() {
 
         <div className='cv-field'>
           <a 
-            href="/Deepak_Rajput_Resume.pdf" 
+            href={`${process.env.PUBLIC_URL}/assets/Deepak_Rajput_Resume.pdf`} 
             download="Deepak_Rajput_Resume.pdf">
-            <i className="fa-solid fa-download"></i>  
+            <i className="fa-regular fa-file"></i> 
               Download CV
           </a> 
         </div>
