@@ -37,7 +37,7 @@ function Resume() {
 
       {/* Education field */}
         <div className="field">
-          <p>Education</p>
+          <p> <i className="fa-solid fa-graduation-cap"></i> Education</p>
 
           <div className="options">
             <h3 className="options-year">2022 - 2024</h3>
@@ -62,8 +62,8 @@ function Resume() {
 
         <div className='cv-field'>
           <a 
-            href={`${process.env.PUBLIC_URL}/assets/Deepak_Rajput_Resume.pdf`} 
-            download="Deepak_Rajput_Resume.pdf">
+            href={`${process.env.PUBLIC_URL}/assets/Deepak_Maher_Resume.pdf`} 
+            download="Deepak_Maher_Resume.pdf">
             <i className="fa-regular fa-file"></i> 
               Download CV
           </a> 

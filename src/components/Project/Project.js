@@ -83,7 +83,7 @@ const Project = () => {
                         <img src={slide.img}/>
                         <p>
                           <span>{slide.name}</span>
-                          <a href={slide.link} className="fa-solid fa-up-right-from-square">  </a>
+                          <a href={slide.link} className="fa-solid fa-link">  </a>
                         </p> 
                         <small>{slide.detail}</small>
                     </div>

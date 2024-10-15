@@ -8,10 +8,13 @@
   display: flex;
   font-size: 2vw;
 }
+.footer-section i{
+  padding: 0 5px;
+}
 
 @media screen and (max-width: 500px) {
   .footer-section{
-    font-size: 3.5vw;
+    font-size: 3.6vw;
   }
   
 }

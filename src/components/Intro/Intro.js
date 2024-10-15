@@ -10,7 +10,7 @@ function Intro() {
   
       <div className='profile-text'>
         <span>Hello,</span>
-        <h1>I AM Deepak Rajput</h1> 
+        <h1>I AM Deepak Maher</h1> 
         <p>
           I am a creative and passionate web developer. With a commitment to continuous learning, I strive to build 
           engaging and responsive websites that offer seamless user experiences.
