@@ -62,8 +62,8 @@ function Resume() {
 
         <div className='cv-field'>
           <a 
-            href={`${process.env.PUBLIC_URL}/assets/Deepak_Maher_Resume.pdf`} 
-            download="Deepak_Maher_Resume.pdf">
+            href={`${process.env.PUBLIC_URL}/assets/Deepak Maher Resume.pdf`} 
+            download="Deepak Maher Resume.pdf">
             <i className="fa-regular fa-file"></i> 
               Download CV
           </a> 
