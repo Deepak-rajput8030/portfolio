@@ -41,22 +41,22 @@ function Resume() {
 
           <div className="options">
             <h3 className="options-year">2022 - 2024</h3>
-            <h3 className="options-name">Bachelor in Computer Science</h3>
+            <h3 className="options-name">Bachelor of Computer Science (BCS)</h3>
           </div>
 
           <div className="options">
             <h3 className="options-year">MARCH - 2022</h3>
-            <h3 className="options-name">HSC</h3>
+            <h3 className="options-name">HSC (12th)</h3>
           </div>
 
           <div className="options">
             <h3 className="options-year">AUG - 2020</h3>
-            <h3 className="options-name">Computer Operator and Programming Assistance</h3>
+            <h3 className="options-name">Computer Operator and Programming Assistance (COPA)</h3>
           </div>
 
           <div className="options">
             <h3 className="options-year">MARCH - 2019</h3>
-            <h3 className="options-name">SSC</h3>
+            <h3 className="options-name">SSC (10th)</h3>
           </div>
         </div>
 
