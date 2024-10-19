@@ -4,7 +4,7 @@ import aboutMeImg from './../../assets/about_me.jpg'
 
 function About() {
   return (
-    <section className='about-section'>
+    <section id='About' className='about-section'>
       <h2 className='section-heading'>About me</h2>
 
       <div className='about-container'>

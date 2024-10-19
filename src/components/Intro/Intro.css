@@ -32,19 +32,20 @@
 .profile-text span{
   font-size: 1.7vw;
   color: lightgrey;
-
 } 
+
 .profile-text h1{
   font-size: 3.5vw;
   font-weight: 700;
   color: #007FF1;
 }
+
 .profile-text p{
   font-size: 1.2vw;
   color: lightgrey;
 }
 .social-icons{
-  margin-top: 10px;
+  margin-top: 20px;
   display: flex;
   gap: 25px;
 }

@@ -12,27 +12,15 @@ import calculatorimg from './../../assets/calculator_project_img.JPG'
 
 const Project = () => {
     const settings = {
-        dots: false,             // Enable dots below the slider
-        infinite: false,         // Loop through slides infinitely
-        speed: 500,             // Transition speed
+        dots: true,             // Enable dots below the slider
+        infinite: true,         // Loop through slides infinitely
+        speed: 1000,             // Transition speed
         slidesToShow: 1,        // Show 3 slides at a time
         slidesToScroll: 1,      // Scroll one slide at a time
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
+        autoplay: true,
+        autoplaySpeed: 2500,
+        cssEase: "linear",
+        pauseOnHover: true,
     };
 
     const slidesData = [
@@ -59,13 +47,6 @@ const Project = () => {
           },
           {
             id: 4,
-            name: `Calculator`,
-            img: calculatorimg,
-            detail: `A fully working Calculator for Mathmatical Calculations.`,
-            link: `https://deepak-rajput8030.github.io/demo-react/`,
-          },
-          {
-            id: 5,
             name: `To Do List`,
             img: todolistimg,
             detail: `A To Do List Web App for keep track of Daily Tasks.`,
@@ -74,7 +55,7 @@ const Project = () => {
       ];
 
     return (
-      <section className='project-section m-auto'>
+      <section id='Project' className='project-section m-auto'>
         <div className="slider-container">
             <h2 className='section-heading'>Project</h2>
             <Slider {...settings}>

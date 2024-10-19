@@ -2,17 +2,17 @@ import React from 'react'
 import './Intro.css'
 import bg from './../../assets/Profile_Img.jpg';
 
-// #FF6500
-
 function Intro() {
   return (
-    <section className='profile-section'>
+    <section id='Intro' className='profile-section'>
   
       <div className='profile-text'>
         <span>Hello,</span>
-        <h1>I AM Deepak Maher</h1> 
+
+        <h1> I'm Deepak Maher.</h1>
+        
         <p>
-          I am a creative and passionate web developer. With a commitment to continuous learning, I strive to build 
+          I am a creative and passionate frontend web developer. With a commitment to continuous learning, I strive to build 
           engaging and responsive websites that offer seamless user experiences.
         </p>
 

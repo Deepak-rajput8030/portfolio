@@ -3,9 +3,9 @@ import './Footer.css'
 
 function Footer() {
   return (
-    <section className='footer-section'>
+    <section id='Footer' className='footer-section'>
       <h1> <i className="fa-regular fa-copyright"></i> 
-           All rights Reserved
+          2024 Deepak Maher. All Rights Reserved.
       </h1>
     </section>
   )

@@ -30,6 +30,7 @@
   height: 20vw;
   width: 50%;
   margin: 0 auto;  
+  border-radius: 10px;
 }
 .slider-item p {
   font-size: 2vw;
@@ -51,6 +52,18 @@
 .slick-slide {
   padding: 0 5px;
 }
+
+/* Change the color of the slick slider dots */
+.slick-dots li button:before {
+    color: rgb(102, 102, 102); /* Change the dot color to white */
+    opacity: 0.75; /* Adjust opacity if needed */
+}
+
+.slick-dots li.slick-active button:before {
+    color: white; /* Ensure the active dot is also white */
+    opacity: 1; /* Make the active dot fully opaque */
+}
+
 
 
 @media screen and (max-width: 800px) {

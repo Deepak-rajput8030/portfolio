@@ -1,20 +1,27 @@
 .footer-section{
-  background-color: rgb(84, 84, 84);
+  background-color: rgb(14, 14, 14);
   height: 100px;
   color: white;
   text-align: center;
   justify-content: center;
   align-items: center;
   display: flex;
-  font-size: 2vw;
+  font-size: 1.4vw;
 }
 .footer-section i{
   padding: 0 5px;
 }
 
+
+@media screen and (max-width: 800px) {
+  .footer-section{
+    font-size: 2vw;
+  } 
+}
+
 @media screen and (max-width: 500px) {
   .footer-section{
-    font-size: 3.6vw;
+    font-size: 3.3vw;
   }
   
 }

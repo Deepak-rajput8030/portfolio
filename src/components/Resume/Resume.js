@@ -2,8 +2,15 @@ import React from 'react';
 import './Resume.css';
 
 function Resume() {
+
+  function alertMsg() {
+    setTimeout(() => {
+      alert('Downloading...');
+    }, 1000);
+  }
+
   return (
-    <div className='resume-section'>
+    <div id='Resume' className='resume-section'>
     <h2 className='section-heading'>Resume</h2>
       
     <div className="container">
@@ -21,18 +28,34 @@ function Resume() {
 
       {/* Skills field */}
         <div className="field">
-          <p>Skill</p>
+          <p>Skills</p>
 
           <div className="options">
-            <h3 className="options-name">
-                {/* <li>React Js <span className='options-level'> 80%</span> </li>  */}
-                <li>React JS</li>
-                <li>Responsive Website</li>
-                <li>Javascript</li>
-                <li>HTML</li>
+            <label className='options-name'>Languages : </label> <br />
+            <h3 className="options-role">
+                <li>JavaScript</li>
                 <li>CSS</li>
+                <li>HTML</li>
             </h3>
           </div>
+
+          <div className="options">
+            <label className='options-name'>Libraries & Frameworks : </label> <br />
+            <h3 className="options-role">
+                <li>React JS</li>
+                {/* <li>Tailwind CSS</li> */}
+                {/* <li>React Router (Routing Library for React)</li> */}
+            </h3>
+          </div>
+
+          {/* <div className="options">
+            <label className='options-name'>Pre-Processors & Technologies : </label> <br />
+            <h3 className="options-role">
+                <li>JSX</li>
+                <li>SAAS</li>
+            </h3>
+          </div> */}
+
         </div>
 
       {/* Education field */}
@@ -40,7 +63,7 @@ function Resume() {
           <p> <i className="fa-solid fa-graduation-cap"></i> Education</p>
 
           <div className="options">
-            <h3 className="options-year">2022 - 2024</h3>
+            <h3 className="options-year">2022 - Expected March 2025</h3>
             <h3 className="options-name">Bachelor of Computer Science (BCS)</h3>
           </div>
 
@@ -61,7 +84,7 @@ function Resume() {
         </div>
 
         <div className='cv-field'>
-          <a 
+          <a onClick={() => alertMsg()}
             href={`${process.env.PUBLIC_URL}/assets/Deepak Maher Resume.pdf`} 
             download="Deepak Maher Resume.pdf">
             <i className="fa-regular fa-file"></i> 
