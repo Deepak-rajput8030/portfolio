@@ -82,7 +82,7 @@
   scroll-behavior: smooth;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   #nav-home{
     font-size: 3vw;
   }

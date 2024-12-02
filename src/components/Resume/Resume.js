@@ -17,7 +17,7 @@ function Resume() {
 
       {/* Experience field */}
         <div className="field">
-          <p>Experience</p>
+          <p> <i className="fa-solid fa-briefcase"></i> Experience</p>
 
           <div className="options">
             <h3 className="options-year">Jul-2021 - Aug-2022</h3>
@@ -28,7 +28,7 @@ function Resume() {
 
       {/* Skills field */}
         <div className="field">
-          <p>Skills</p>
+          <p> <i className="fas fa-cogs"></i> Skills</p>
 
           <div className="options">
             <label className='options-name'>Languages : </label> <br />
@@ -43,18 +43,26 @@ function Resume() {
             <label className='options-name'>Libraries & Frameworks : </label> <br />
             <h3 className="options-role">
                 <li>React JS</li>
-                {/* <li>Tailwind CSS</li> */}
-                {/* <li>React Router (Routing Library for React)</li> */}
+                <li>React Router</li>
+                <li>Tailwind CSS</li>
             </h3>
           </div>
 
-          {/* <div className="options">
+          <div className="options">
+            <label className='options-name'>Tools & Platforms : </label> <br />
+            <h3 className="options-role">
+                <li>Firebase</li>
+                <li>Google Cloud Console (for API)</li>
+            </h3>
+          </div>
+
+          <div className="options">
             <label className='options-name'>Pre-Processors & Technologies : </label> <br />
             <h3 className="options-role">
                 <li>JSX</li>
-                <li>SAAS</li>
+                {/* <li>SAAS</li> */}
             </h3>
-          </div> */}
+          </div>
 
         </div>
 
@@ -74,7 +82,7 @@ function Resume() {
 
           <div className="options">
             <h3 className="options-year">AUG - 2020</h3>
-            <h3 className="options-name">Computer Operator and Programming Assistance (COPA)</h3>
+            <h3 className="options-name">ITI - Computer Operator and Programming Assistance (COPA)</h3>
           </div>
 
           <div className="options">

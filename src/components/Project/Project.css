@@ -21,7 +21,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white;
   border: none;
   outline: none;
   padding: 20px 0;
@@ -47,13 +46,13 @@
 .slider-item small {
   font-size: 1.3vw;
   color: rgb(189, 188, 188);
+  
 }
 
 .slick-slide {
   padding: 0 5px;
 }
 
-/* Change the color of the slick slider dots */
 .slick-dots li button:before {
     color: rgb(102, 102, 102); /* Change the dot color to white */
     opacity: 0.75; /* Adjust opacity if needed */
@@ -66,7 +65,7 @@
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .slider-container{
     width: 89%;
   }
@@ -108,5 +107,8 @@
   }
   .slider-item small {
     font-size: 3.3vw;
+    display: flex;
+    text-align: start;
+
   }
 }

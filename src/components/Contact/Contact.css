@@ -64,9 +64,9 @@
   background-color: #007FF1;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .contact-section{
-    width: 89%;
+    width: 60%;
   }
   .section-heading{
     font-size: 3vw;

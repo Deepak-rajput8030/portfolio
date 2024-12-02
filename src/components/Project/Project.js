@@ -4,11 +4,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './Project.css';
 
-import currencyconverterimg from './../../assets/currency_converter_img.JPG'
 import amazonimg from './../../assets/amazonclone_img.JPG'
-import todolistimg from './../../assets/todo_list_img.JPG'
-import rockpaperimg from './../../assets/rockpaper_img.JPG'
-import calculatorimg from './../../assets/calculator_project_img.JPG'
+import beatbox_img from './../../assets/beatbox_img.JPG'
+import portfolio_img from './../../assets/portfolio_img.JPG'
 
 const Project = () => {
     const settings = {
@@ -23,36 +21,31 @@ const Project = () => {
         pauseOnHover: true,
     };
 
-    const slidesData = [
-      {
-            id: 1,
-            name: `Amazon Website Clone`,
-            img: amazonimg,
-            detail: `Landing page Clone of Amazon E-commerce website.`,
-            link: `https://deepak-rajput8030.github.io/demo-react/`,
-          },
-          {
-            id: 2,
-            name: `Currency Converter`,
-            img: currencyconverterimg,
-            detail: `A Currency Converter Website for realtime Currency conversion.`,
-            link: `https://deepak-rajput8030.github.io/demo-react/`,
-          },
-          {
-            id: 3,
-            name: `Rock Paper Scissor Game`,
-            img: rockpaperimg,
-            detail: `Rock Paper Scissor Game to play with friends and computer.`,
-            link: `https://deepak-rajput8030.github.io/demo-react/`,
-          },
-          {
-            id: 4,
-            name: `To Do List`,
-            img: todolistimg,
-            detail: `A To Do List Web App for keep track of Daily Tasks.`,
-            link: `https://deepak-rajput8030.github.io/demo-react/`,
-          },
-      ];
+  const slidesData = [
+    {       
+      id: 1,
+      name: `BeatBox Video App`,
+      img: beatbox_img,
+      detail: `A YouTube-powered video music player for searching and streaming videos.`,
+      link: `https://deepak-rajput8030.github.io/music-app/`,
+    },
+    {       
+      id: 2,
+      name: `Portfolio`,
+      img: portfolio_img,
+      // detail: `Personal Portfolio Website to showcase my skills.`,
+      detail: `A personal portfolio website showcasing my skills, projects, and professional journey.`,
+      link: `https://deepak-rajput8030.github.io/portfolio/`,
+    },
+    {       
+      id: 3,
+      name: `Amazon Website Clone`,
+      img: amazonimg,
+      // detail: `Landing page Clone of Amazon E-commerce website.`,
+      detail: `A responsive clone of Amazon's landing page with a clean UI.`,
+      link: `https://deepak-rajput8030.github.io/demo-react/`,
+    },
+  ];
 
     return (
       <section id='Project' className='project-section m-auto'>
