@@ -2,9 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+/* dark theme color */
+:root{
+  --page-bg-color: #2d2d2d;
+  --text-color: #fff;
+  --sub-text-color: rgb(167, 167, 167);
+  --text-hover-color: rgb(189, 186, 186);
+  --nav-sidebar-bg-color: #3d3d3d;
+}
+
+/* light theme color */
+.light-theme{
+  --page-bg-color: #fff;
+  --text-color: #111;
+  --sub-text-color: rgb(97, 97, 97);
+  --text-hover-color: rgb(189, 186, 186);
+  --nav-sidebar-bg-color: #e6e6e6;
+}
+
 @layer base {
   body{
-    background-color: #2d2d2d;
+    background-color: var(--page-bg-color);
+    color: var(--text-color);
   }
 }
 .slick-slide > div{

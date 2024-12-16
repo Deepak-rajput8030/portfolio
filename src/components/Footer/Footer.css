@@ -12,10 +12,9 @@
   padding: 0 5px;
 }
 
-
 @media screen and (max-width: 800px) {
   .footer-section{
-    font-size: 2vw;
+    font-size: 2.3vw;
   } 
 }
 

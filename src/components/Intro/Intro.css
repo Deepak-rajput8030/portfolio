@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: var(--text-color);
   margin: 0 auto;
   padding: 5px;
 }
@@ -31,18 +31,18 @@
 }
 .profile-text span{
   font-size: 1.7vw;
-  color: lightgrey;
+  color: var(--sub-text-color);
 } 
 
 .profile-text h1{
-  font-size: 3.5vw;
+  font-size: 3.4vw;
   font-weight: 700;
   color: #007FF1;
 }
 
 .profile-text p{
   font-size: 1.2vw;
-  color: lightgrey;
+  color: var(--sub-text-color);
 }
 .social-icons{
   margin-top: 20px;
@@ -51,11 +51,11 @@
 }
 .logo{
   text-decoration: none;
-  color: rgb(192, 192, 192);
+  color: var(--sub-text-color);
   font-size: 2.4vw;
 }
 .logo:hover{
-  color: white;
+  color: var(--text-color);
 }
 
 @media (max-width:900px) {

@@ -10,7 +10,7 @@
   margin-bottom: 30px;
   font-size: 2.3vw;
   font-weight: 700;
-  color: white;
+  color:  var(--text-color);
   padding-bottom: 10px;
   border-bottom: 1px solid rgb(84, 84, 84);
 }
@@ -40,13 +40,12 @@
 .slider-item a{
   font-size: 1.5vw;
   margin-left: 10px;
-  color: white;
+  color: var(--text-color);
 }
 
 .slider-item small {
   font-size: 1.3vw;
-  color: rgb(189, 188, 188);
-  
+  color: var(--sub-text-color);
 }
 
 .slick-slide {
@@ -54,12 +53,12 @@
 }
 
 .slick-dots li button:before {
-    color: rgb(102, 102, 102); /* Change the dot color to white */
+    color: var(--sub-text-color); /* Change the dot color to white */
     opacity: 0.75; /* Adjust opacity if needed */
 }
 
 .slick-dots li.slick-active button:before {
-    color: white; /* Ensure the active dot is also white */
+    color: var(--text-color); /* Ensure the active dot is also white */
     opacity: 1; /* Make the active dot fully opaque */
 }
 
