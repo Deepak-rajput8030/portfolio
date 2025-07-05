@@ -12,11 +12,11 @@ const Project = () => {
     const settings = {
         dots: true,             // Enable dots below the slider
         infinite: true,         // Loop through slides infinitely
-        speed: 1000,             // Transition speed
+        speed: 1500,             // Transition speed
         slidesToShow: 1,        // Show 3 slides at a time
         slidesToScroll: 1,      // Scroll one slide at a time
         autoplay: true,
-        autoplaySpeed: 2500,
+        autoplaySpeed: 3000,
         cssEase: "linear",
         pauseOnHover: true,
     };

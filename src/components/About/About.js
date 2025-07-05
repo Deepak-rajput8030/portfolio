@@ -1,32 +1,32 @@
-import React from 'react'
-import './About.css'
-import aboutMeImg from './../../assets/about_me.jpg'
+import React from "react";
+import "./About.css";
+import aboutMeImg from "./../../assets/about_me.jpg";
 
 function About() {
   return (
-    <section id='About' className='about-section'>
-      <h2 className='section-heading'>About me</h2>
+    <section id="About" className="about-section">
+      <h2 className="section-heading">About me</h2>
 
-      <div className='about-container'>
+      <div className="about-container">
+        <img src={aboutMeImg} id="about-img"></img>
 
-        <img src={aboutMeImg} id='about-img'></img>
-
-        <div id='about-text'>
+        <div id="about-text">
           <p>
-          I am a dedicated final-year Computer Science student with a strong 
-          focus on frontend web development. I am proficient in HTML, CSS, 
-          JavaScript, and React.js, and I am continuously expanding my skills 
-          by exploring backend development. Currently, my main focus is on 
-          understanding the basics and learning new technologies like Firebase 
-          for backend and database management, as well as Tailwind CSS to 
-          enhance my styling skills.
+            I am a Computer Science graduate with a solid foundation in software
+            development and a strong interest in working across various domains
+            of the tech industry. I have hands-on experience in frontend
+            technologies like HTML, CSS, JavaScript, and React.js, and I also
+            possess working knowledge of backend tools such as Firebase and core
+            Java at an intermediate level. Additionally, I am familiar with
+            using Tailwind CSS to build clean and responsive user interfaces. I
+            am actively seeking developer roles—whether in frontend, backend, or
+            full-stack—where I can apply my skills, continue learning, and
+            contribute to building meaningful solutions.
           </p>
         </div>
-
       </div>
-
     </section>
-  )
+  );
 }
 
-export default About
+export default About;

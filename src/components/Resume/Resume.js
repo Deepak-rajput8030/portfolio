@@ -5,7 +5,7 @@ function Resume() {
 
   function alertMsg() {
     setTimeout(() => {
-      alert('Downloading...');
+      alert('CV Downloading...');
     }, 1000);
   }
 
@@ -20,8 +20,8 @@ function Resume() {
           <p> <i className="fa-solid fa-briefcase"></i> Experience</p>
 
           <div className="options">
-            <h3 className="options-year">Jul-2021 - Aug-2022</h3>
             <h3 className="options-name">Endress + Hauser Flowtec (India) Pvt. Ltd. (MNC)</h3>
+            <h3 className="options-year">Jul-2021 - Aug-2022</h3>
             <h3 className="options-role">Computer Assistant (Apprenticeship)</h3>
           </div>
         </div>
@@ -36,6 +36,7 @@ function Resume() {
                 <li>JavaScript</li>
                 <li>CSS</li>
                 <li>HTML</li>
+                <li>JAVA (Intermediate)</li>
             </h3>
           </div>
 
@@ -71,23 +72,23 @@ function Resume() {
           <p> <i className="fa-solid fa-graduation-cap"></i> Education</p>
 
           <div className="options">
-            <h3 className="options-year">2022 - Expected March 2025</h3>
             <h3 className="options-name">Bachelor of Computer Science (BCS)</h3>
+            <h3 className="options-year">2022 - 2025 | Percentage: 81.2% | Grade: A++</h3>
           </div>
 
           <div className="options">
-            <h3 className="options-year">MARCH - 2022</h3>
             <h3 className="options-name">HSC (12th)</h3>
+            <h3 className="options-year">MARCH - 2022</h3>
           </div>
 
           <div className="options">
-            <h3 className="options-year">AUG - 2020</h3>
             <h3 className="options-name">ITI - Computer Operator and Programming Assistance (COPA)</h3>
+            <h3 className="options-year">AUG - 2020</h3>
           </div>
 
           <div className="options">
-            <h3 className="options-year">MARCH - 2019</h3>
             <h3 className="options-name">SSC (10th)</h3>
+            <h3 className="options-year">MARCH - 2019</h3>
           </div>
         </div>
 
